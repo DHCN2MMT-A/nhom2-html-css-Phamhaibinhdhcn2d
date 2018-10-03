@@ -1,5 +1,33 @@
+#grid{
+          display: grid;
+        
+          grid-template-areas: 
+          ". title title ."
+          ". header header ."
+          ". content sidebar ."
+          ". footer footer .";
+      }
+      
+      #title{
+          grid-area: title;
+      }
+      
+      #header{
+          grid-area: header;
+      }
+      #content{
+        grid-area: content;
+    }
+      
+      #sidebar{
+          grid-area: sidebar;
+      }
+    #footer{
+        grid-area: footer;
+    }
+
 p {
-	padding-top: 5px;
+	 padding-top: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
@@ -24,4 +52,10 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+}
+
+#footer{
+	color: blue;
+	font-size: 20px;
+	font: Times New Romen;
 }

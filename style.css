@@ -14,5 +14,18 @@ p {
 
 a{
 	font-size: 25px;
+}
 
+nav{
+	background-color: white;
+	padding: 10px;
+	font: Times New Romen;
+	font-size: 30px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }

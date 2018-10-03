@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;
+}
+
+p {
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+	color: blue;
+	font: Times New Romen;
+	font-size: 20px;
+}
+
+a{
+	font-size: 25px;
+
+}
